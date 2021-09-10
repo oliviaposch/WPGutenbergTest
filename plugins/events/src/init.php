@@ -116,8 +116,8 @@ function render_posts_block($attributes){
 // Hook: Block assets.
 add_action( 'init', 'events_cgb_block_assets' );
 
-add_filter('the_content', 'addToEndOfPost');
+// add_filter('the_content', 'addToEndOfPost');
 
-function addToEndOfPost($content) {
-	return $content . '<p>My name is Olivia.</p>';
-}
+// function addToEndOfPost($content) {
+// 	return $content . '<p>My name is Olivia.</p>';
+// }

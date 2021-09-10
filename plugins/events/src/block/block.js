@@ -110,8 +110,6 @@ registerBlockType( 'cgb/block-events', {
 	 * @returns {Mixed} JSX Frontend HTML.
 	 */
 	save: () => {
-		return (
-			<p>text</p>
-		);
+		return null;
 	},
 } );
